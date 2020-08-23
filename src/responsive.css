@@ -1,0 +1,45 @@
+@media (min-width: 700px) {
+
+    .main-container {
+        position: relative;
+    }
+
+
+    .App-header {
+        position: fixed;
+        width: 70vw;
+        right: 0;
+    }
+
+    .App-header .logo {
+        margin-left: auto;
+    }
+
+    .App-header .opt {
+        display: none;
+    }
+
+    .App-header .section-name {
+        margin-left: 60px;
+    }
+
+    .App-body {
+        margin: 10px;
+        margin-top: 110px;
+        margin-left: 31vw;
+    }
+
+    #Options-Menu {
+        position: fixed;
+        width: 30vw;
+        margin: 0;
+
+        /* display: none; */
+    }
+
+    #Options-Menu.Hidden {
+        display: flex;
+
+    }
+
+}

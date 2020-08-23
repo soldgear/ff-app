@@ -1,0 +1,97 @@
+.Tale {
+    margin: 10px 0;
+    background: rgb(96, 13, 107);
+
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+}
+
+.Tale header {
+    display: flex;
+    align-items: center;
+    
+}
+
+.Tale header h1{
+    font-size: 26px;
+    width: 60%;
+
+    color: lightsalmon;
+
+    margin-left: 50px;
+}
+
+
+
+.Tale img {
+    width: 80px;
+    height: 80px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 1px solid lightsalmon;
+}
+
+.Tale p {
+    color: white;
+
+    margin: 10px 0;
+
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255, .3);
+    border-radius: 3px;
+}
+
+.Tale footer {
+    display: flex;
+    align-items: center;justify-content: space-between;
+}
+
+.Tale footer a {
+    text-decoration: none;
+    background: white;
+    border: 3px solid rgb(211, 64, 64);
+    color: rgb(211, 64, 64);
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+
+    
+}
+
+.Tale footer a:hover {
+    color: white;
+    background: rgb(211, 64, 64);
+
+    transition: all .3s;
+}
+
+.Tale footer button {
+    background: white;
+    color: grey;
+    
+    width: 100px;
+    height: 30px;
+    
+    text-align: center;
+
+    border-radius: 10px;
+    border: none;
+
+    outline: none;
+    cursor: pointer;
+}
+
+.Tale footer button:hover {
+    background: orange;
+    color: white;
+
+    
+}
